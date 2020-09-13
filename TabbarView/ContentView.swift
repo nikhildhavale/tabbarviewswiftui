@@ -17,7 +17,7 @@ struct ContentView: View {
                 .font(.title)
                 .tabItem {
                     VStack {
-                        Image("first")
+                        Image(systemName: "pencil.circle")
                         Text("First")
                     }
                 }
@@ -26,7 +26,7 @@ struct ContentView: View {
                 .font(.title)
                 .tabItem {
                     VStack {
-                        Image("second")
+                        Image(systemName: "pencil")
                         Text("Second")
                     }
                 }
